@@ -1,0 +1,28 @@
+.mainContainer {
+    height: 100%;
+    margin-top: 79px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+
+.main {
+    height: calc(100vh - 81px);
+    width: 100%;
+    background-color: #e0deff;
+
+}
+
+.text {
+    background-color: lightgrey;
+    width: 500px;
+
+}
+
+.photo {
+    width: 300px;
+    height: 400px;
+    background-color: lightsalmon;
+}

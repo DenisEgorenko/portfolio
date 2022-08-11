@@ -1,0 +1,17 @@
+/*.container {*/
+/*    display: flex;*/
+/*    border: 1px solid black;*/
+/*    margin: 0 auto;*/
+/*    height: 100%;*/
+/*    width: 80%;*/
+/*    align-items: center;*/
+/*    justify-content: space-around;*/
+/*    flex-wrap: wrap;*/
+/*}*/
+
+.container {
+    display: flex;
+    width: 80%;
+    border: 1px solid black;
+    margin: 0 auto;
+}

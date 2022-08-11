@@ -1,0 +1,31 @@
+.workBlock{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: lightsalmon;
+    align-items: center;
+    text-align: center;
+
+    margin: 30px;
+
+}
+
+.img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgray;
+    height: 200px;
+    width: 100%;
+}
+
+.img button {
+    width: 90px;
+    height: 40px;
+}
+.icon{
+    height: 60px;
+    width: 60px;
+    background-color: lightblue;
+    margin: 20px;
+}
