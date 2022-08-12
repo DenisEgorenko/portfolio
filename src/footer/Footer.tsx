@@ -18,7 +18,7 @@ function Footer(props: FooterType) {
                     <div className={styles.iconItem}></div>
                     <div className={styles.iconItem}></div>
                 </div>
-                <h2 className={styles.title}>© 2022 Все права защищены</h2>
+                <h4 className={styles.title}>© 2022 Все права защищены</h4>
             </div>
         </div>
     )
