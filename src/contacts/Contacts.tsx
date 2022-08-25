@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Contacts.module.css'
 import styleContainer from './../common/styles/container.module.css'
+import Title from '../common/components/title/Title';
 
 type Contacts = {}
 
@@ -9,7 +10,8 @@ function Contacts(props: Contacts) {
         <div className={styles.contactsBlock}>
             <div className={`${styleContainer.container} ${styles.contactsContainer}`}>
 
-                <h2 className={styles.title}>Контакты</h2>
+                <Title text={'Контакты'}/>
+
                 <div className={styles.formBlock}>
                     <form className={styles.form}>
                         <input placeholder={'Имя'}/>

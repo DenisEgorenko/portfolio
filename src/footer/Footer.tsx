@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Footer.module.css'
 import styleContainer from './../common/styles/container.module.css'
+import Title from '../common/components/title/Title';
 
 type FooterType = {
 
@@ -11,7 +12,8 @@ function Footer(props: FooterType) {
         <div className={styles.footerBlock}>
             <div className={`${styleContainer.container} ${styles.footerContainer}`}>
 
-                <h2 className={styles.title}>Денис Егоренко</h2>
+                <Title text={'Денис Егоренко'}/>
+
                 <div className={styles.iconBlock}>
                     <div className={styles.iconItem}></div>
                     <div className={styles.iconItem}></div>

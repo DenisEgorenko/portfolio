@@ -6,4 +6,5 @@
     height: 80px;
     background-color: #c2ddee;
     align-items: center;
+    z-index: 2;
 }

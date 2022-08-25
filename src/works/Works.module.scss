@@ -1,24 +1,26 @@
 .worksBlock {
-    /*height: calc(100vh - 80px);*/
-    background-color: #ffded7;
-    width: 100%;
-}
+  background-color: #ffded7;
+  width: 100%;
 
-.worksContainer {
+
+  .worksContainer {
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-}
+  }
 
-.title{
 
-}
-
-.works{
+  .works {
     display: flex;
     justify-content: space-around;
     border: 1px solid black;
     width: 100%;
     flex-wrap: wrap;
     margin: 60px;
+  }
+
 }
+
+
+
+

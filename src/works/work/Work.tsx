@@ -1,15 +1,16 @@
 import React from 'react'
-import styles from './Work.module.css'
+import styles from './Work.module.scss'
 
 type WorkPropsType = {
     title: string
     description: string
+    backgroundImage?: {backgroundImage: string}
 }
 
 function Work (props: WorkPropsType) {
     return(
         <div className={styles.workBlock}>
-            <div className={styles.img}>
+            <div style={props.backgroundImage} className={styles.img}>
                 <button>Смотреть</button>
             </div>
             <h3>{props.title}</h3>
