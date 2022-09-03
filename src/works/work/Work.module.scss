@@ -1,8 +1,12 @@
+@import "src/common/styles/sass/variables.scss";
+@import "src/common/styles/sass/mixins";
+
+
 .workBlock {
   display: flex;
   flex-direction: column;
   width: 300px;
-  background-color: lightsalmon;
+  background-color: $backgroundColor3;
   align-items: center;
   text-align: center;
   margin: 30px;
@@ -30,12 +34,41 @@
       opacity: 0.4;
     }
 
-    & button {
-      width: 90px;
+    button {
+      width: 100px;
       height: 40px;
       z-index: 1;
+      background-color: $accentColor;
+      border-radius: 5px;
+      color: #FFFFFF;
+      font-size: 15px;
+      font-weight: 500;
+      border: none;
+
+      &:hover {
+        background-color: #fa391b;
+      }
     }
   }
+
+  .title {
+    @include text('Rubik');
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 20px;
+  }
+
+  .description {
+    @include text('Rubik');
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0 20px 10px 20px;
+  }
+
+
 }
 
 

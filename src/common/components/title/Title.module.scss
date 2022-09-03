@@ -4,12 +4,13 @@
     position: relative;
     display: inline-block;
     margin-top: 60px;
+    color: #ffffff;
 }
 
 .title:before {
     content: "";
     width: 70px;
-    height: 1px;
+    height: 2px;
     position: absolute;
     opacity: 0.75;
     background: $accentColor;

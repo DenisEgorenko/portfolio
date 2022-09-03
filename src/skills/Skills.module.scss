@@ -1,21 +1,25 @@
-.skillsBlock {
-    /*height: calc(100vh - 80px);*/
-    background-color: #dfffdf;
-    width: 100%;
-}
+@import "src/common/styles/sass/variables.scss";
 
-.skillsContainer {
+
+.skillsBlock {
+  width: 100%;
+  background-color: $backgroundColor2;
+
+  .skillsContainer {
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-}
+  }
 
-
-.skills {
+  .skills {
     display: flex;
     justify-content: space-around;
-    border: 1px solid black;
     width: 100%;
     flex-wrap: wrap;
     margin: 60px;
+  }
 }
+
+
+
+

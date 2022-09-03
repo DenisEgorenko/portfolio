@@ -1,0 +1,42 @@
+@import "src/common/styles/sass/variables.scss";
+@import "src/common/styles/sass/mixins";
+
+
+.skillBlock{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: $backgroundColor3;
+    align-items: center;
+    text-align: center;
+
+    margin: 30px;
+
+}
+
+.title {
+    @include text('Rubik');
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.iconBlock {
+    margin-top: 20px;
+}
+
+.icon{
+    color: white;
+    height: 60px;
+    width: 60px;
+}
+
+.description {
+    @include text('Rubik');
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0 20px 10px 20px;
+}

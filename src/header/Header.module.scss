@@ -1,0 +1,19 @@
+@import "src/common/styles/sass/variables.scss";
+
+.header {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 80px;
+    background-color: $backgroundColorHeader;
+    align-items: center;
+    z-index: 2;
+
+    .square {
+        background-color: $accentColor;
+        width: 50px;
+        height: 50px;
+    }
+
+}

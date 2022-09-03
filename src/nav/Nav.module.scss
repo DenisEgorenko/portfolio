@@ -1,0 +1,50 @@
+@import "src/common/styles/sass/mixins";
+@import "src/common/styles/sass/variables";
+
+
+@media screen and (max-width: 500px){
+    .navContainer {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 501px){
+    .navContainer {
+        width: 100%;
+        justify-content: flex-end;
+    }
+}
+
+.nav {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #424242;
+    @include text('Open Sans');
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    margin: 10px;
+
+
+}
+
+.activeNav {
+    &:after {
+        content: "";
+        width: 80px;
+        height: 4px;
+        position: absolute;
+        opacity: 0.75;
+        background: $accentColor;
+        left: 50%;
+        top: 44px;
+        transform: translate(-50%, 50%);
+    }
+}

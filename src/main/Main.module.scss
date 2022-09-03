@@ -1,0 +1,41 @@
+@import "src/common/styles/sass/mixins";
+
+
+.mainContainer {
+    height: 100%;
+    margin-top: 79px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.main {
+    height: calc(100vh - 80px);
+    width: 100%;
+}
+
+.text {
+    margin: 20px;
+    width: 500px;
+    color: #FFFFFF;
+
+    .textName {
+        @include text('Rubik');
+        font-size: 60px;
+        font-weight: 500;
+    }
+
+    .textGreetings {
+        @include text('Rubik');
+        font-size: 30px;
+        font-weight: 400;
+    }
+}
+
+.photo {
+    margin: 20px;
+    width: 300px;
+    height: 400px;
+    background-color: lightsalmon;
+}

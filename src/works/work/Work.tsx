@@ -11,9 +11,9 @@ function Work (props: WorkPropsType) {
     return(
         <div className={styles.workBlock}>
             <div style={props.backgroundImage} className={styles.img}>
-                <button>Смотреть</button>
+                <button>Подробнее</button>
             </div>
-            <h3>{props.title}</h3>
+            <h3 className={styles.title}>{props.title}</h3>
             <p className={styles.description}>
                 {props.description}
             </p>
